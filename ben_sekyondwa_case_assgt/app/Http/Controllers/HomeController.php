@@ -54,7 +54,7 @@ class HomeController extends Controller
     public function get_reports()
     {
     	Session(['title'=>'Reports']);
-    	$orders = Order::get()->take(100);
+    	$orders = Order::get();
     	return view('reports')->with(['orders'=>$orders]);
     }
 
