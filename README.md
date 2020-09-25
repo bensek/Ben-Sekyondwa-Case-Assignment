@@ -1,5 +1,9 @@
-##Steps for setting up the project:
-- Download xammp: https://www.apachefriends.org/download.html
+# Reporting Tool
+This system was built with Laravel and MySQL. Screenshots of the working solution have been attached. 
+
+## **Steps for setting up the project:**
+
+- Download xampp: https://www.apachefriends.org/download.html
 - Create a database locally named `laboremus_case` utf8_general_ci 
 - Download composer https://getcomposer.org/download/
 - Clone the project and cd into the folder of the sourcecode
@@ -9,8 +13,8 @@
 - Run `php artisan migrate`
 - Run `php artisan serve`
 
-#####You can now access your project at localhost:8000 :)
+**You can now access your project at localhost:8000**
 
-##If for some reason your project stop working do these:
+**If for some reason your project stop working do these:**
 - `composer update`
 - `composer dump-autoload`
